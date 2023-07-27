@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <div id="boasvindas">
+    <h1 id="texto">classificação por idade</h1>
+    </div>
+    <div>
+    <h3 id="descExercicio">
+    Criança - até 11 anos de idade;<br> 
+    Adolescente - dos 12 até 20 anos de idade;<br>
+    Adulto - dos 21 até 65 anos de idade;<br> 
+    Idoso - 65 anos de idade ou mais;<br>
+    
+
+    </h3>
+    </div>
+    <form onsubmit="return calcular(event)">
+    <label>Digite seu nome:</label><br><br> <input type="text" nome="nome" id="idade" placeholder="Exemplo: 65"/><br><br>
+    <label>Digite sua idade:</label><br><br>
+    <input type="text" nome="idade" id="idade" placeholder="Exemplo: 65"/><br><br>
+    <input type="submit" value="classificação por idade">
+    </form>
+
+<div id="resultado"></div>
+
+    <script src="./imc.js"></script>
+
+
+
+    </body>
+    </html>
